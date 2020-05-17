@@ -14,10 +14,10 @@ jobs:
             - run: npm run test
             - run: npm run codecov
       - codecov/upload:
-        file: coverage
-        conf: codecov.yml
+          file: coverage
+          conf: codecov.yml
       - store_artifacts:
-        path: coverage
+          path: coverage
 
 workflows:
   test-flow:
