@@ -6,6 +6,35 @@ Use Vue Composition API Right Now.
 
 [![CircleCI](https://circleci.com/gh/openfext/vue-use.svg?style=svg)](https://circleci.com/gh/openfext/vue-use)
 [![codecov](https://codecov.io/gh/openfext/vue-use/branch/develop/graph/badge.svg)](https://codecov.io/gh/openfext/vue-use)
+![GitHub](https://img.shields.io/github/license/openfext/vue-use?style=flat-square)
+![npm (scoped)](https://img.shields.io/npm/v/@fext/vue-use?style=flat-square)
+
+## Quick Start
+
+### Installation
+
+```bash
+npm i @fext/vue-use
+```
+
+### Usage
+
+```js
+import { useLoading } from '@fext/vue-use';
+
+export default {
+  name: 'example-component',
+
+  setup() {
+    const { loading, withLoading } = useLoading();
+
+    return {
+      loading,
+      withLoading
+    };
+  }
+};
+```
 
 ## Docs
 
