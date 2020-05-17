@@ -9,8 +9,7 @@ Use Vue Composition API Right Now.
 
 ## Docs
 
-- Documentation
-- Storybook
+- [Storybook](https://openfext.github.io/vue-use)
 
 ## Features
 
