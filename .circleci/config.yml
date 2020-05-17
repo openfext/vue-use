@@ -12,7 +12,6 @@ jobs:
           steps:
             - run: npm install
             - run: npm run test
-            - run: npm run codecov
       - codecov/upload:
           file: coverage
           conf: codecov.yml

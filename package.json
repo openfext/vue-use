@@ -12,7 +12,6 @@
     "build": "rollup -c",
     "lint": "eslint --fix --ext .js,.vue src stories",
     "test": "jest",
-    "codecov": "codecov",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages"
