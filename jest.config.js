@@ -10,5 +10,5 @@ module.exports = {
     '!**/test/**',
     '!**/node_modules/**'
   ],
-  coverageDirectory: 'test/unit/coverage'
+  coverageDirectory: 'coverage'
 };

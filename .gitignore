@@ -6,7 +6,7 @@ yarn.lock
 package-lock.json
 
 # Test
-test/unit/coverage
+coverage
 
 # Log files
 npm-debug.log*
