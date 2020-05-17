@@ -5,6 +5,7 @@ Use Vue Composition API Right Now.
 **Note**: Currently only Vue.js 2.x is supported. Since [Vue.js](https://github.com/vuejs/vue-next) has released a beta version of 3.0, this library will support the latest version of Vue.js for the first time.
 
 [![CircleCI](https://circleci.com/gh/openfext/vue-use.svg?style=svg)](https://circleci.com/gh/openfext/vue-use)
+[![codecov](https://codecov.io/gh/openfext/vue-use/branch/develop/graph/badge.svg)](https://codecov.io/gh/openfext/vue-use)
 
 ## Docs
 
