@@ -7,7 +7,7 @@ Use Vue Composition API Right Now.
 [![CircleCI](https://circleci.com/gh/openfext/vue-use.svg?style=svg)](https://circleci.com/gh/openfext/vue-use)
 [![codecov](https://codecov.io/gh/openfext/vue-use/branch/develop/graph/badge.svg)](https://codecov.io/gh/openfext/vue-use)
 ![GitHub](https://img.shields.io/github/license/openfext/vue-use?style=flat-square)
-![npm (scoped)](https://img.shields.io/npm/v/@fext/vue-use?style=flat-square)
+![Version](https://img.shields.io/npm/v/@fext/vue-use?style=flat-square)
 
 ## Quick Start
 
