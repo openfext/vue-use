@@ -45,6 +45,7 @@ export default {
 - `useResize` -- tracks `window` dimensions.
 - `useLoading` -- loading status of asynchronous task.
 - `useForm` -- manage, watch, and synchronize state of complex form.
+- `useFormElement` -- create custom form components that support `v-model`.
 - `useTable` -- manage, watch, and synchronize state of complex table.
 - ...
 
