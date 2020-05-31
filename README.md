@@ -9,6 +9,22 @@ Use Vue Composition API Right Now.
 ![GitHub](https://img.shields.io/github/license/openfext/vue-use?style=flat-square)
 ![Version](https://img.shields.io/npm/v/@fext/vue-use?style=flat-square)
 
+## Docs
+
+- [Storybook](https://openfext.github.io/vue-use)
+- [Complete API Reference](http://openfext.github.io/docs/vue-use)
+
+## Features
+
+- `useResize` -- tracks `window` dimensions.
+- `useLoading` -- loading status of asynchronous task.
+- `useForm` -- manage, watch, and synchronize state of complex form.
+- `useFormElement` -- create custom form components that support `v-model`.
+- `useTable` -- manage, watch, and synchronize state of complex table.
+- ...
+
+More features are coming soon...
+
 ## Quick Start
 
 ### Installation
@@ -35,21 +51,6 @@ export default {
   }
 };
 ```
-
-## Docs
-
-- [Storybook](https://openfext.github.io/vue-use)
-
-## Features
-
-- `useResize` -- tracks `window` dimensions.
-- `useLoading` -- loading status of asynchronous task.
-- `useForm` -- manage, watch, and synchronize state of complex form.
-- `useFormElement` -- create custom form components that support `v-model`.
-- `useTable` -- manage, watch, and synchronize state of complex table.
-- ...
-
-More features are coming soon...
 
 ## Built With
 
