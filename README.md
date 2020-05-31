@@ -8,6 +8,7 @@ Use Vue Composition API Right Now.
 [![codecov](https://codecov.io/gh/openfext/vue-use/branch/develop/graph/badge.svg)](https://codecov.io/gh/openfext/vue-use)
 ![GitHub](https://img.shields.io/github/license/openfext/vue-use?style=flat-square)
 ![Version](https://img.shields.io/npm/v/@fext/vue-use?style=flat-square)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/openfext/vue-use)
 
 ## Docs
 
