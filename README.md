@@ -13,8 +13,15 @@ Use Vue Composition API Right Now.
 ## Docs
 
 - [Storybook](https://openfext.github.io/vue-use)
+
+### 🇨🇳 Chinese
+
 - [Guide](https://openfext.github.io/docs/zh/vue-use/intro.html)
 - [API Reference](https://openfext.github.io/docs/zh/vue-use/api/form.html)
+
+### 🇺🇸 English
+
+WIP...
 
 ## Features
 
