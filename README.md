@@ -13,15 +13,16 @@ Use Vue Composition API Right Now.
 ## Docs
 
 - [Storybook](https://openfext.github.io/vue-use)
-- [Complete API Reference](http://openfext.github.io/docs/vue-use)
+- [Guide](https://openfext.github.io/docs/zh/vue-use/intro.html)
+- [API Reference](https://openfext.github.io/docs/zh/vue-use/api/form.html)
 
 ## Features
 
-- `useResize` -- tracks `window` dimensions.
-- `useLoading` -- loading status of asynchronous task.
-- `useForm` -- manage, watch, and synchronize state of complex form.
-- `useFormElement` -- create custom form components that support `v-model`.
-- `useTable` -- manage, watch, and synchronize state of complex table.
+- ✨ `useResize` -- track `window.innerWidth`, `window.innerHeight`.
+- ✨ `useLoading` -- run asynchronous tasks and set `loading` status.
+- ✨ `useForm` -- manage model, events of complex form.
+- ✨ `useFormElement` -- create custom form components that support `v-model`, work with `useForm`.
+- ✨ `useTable` -- manage data, paging, sorting and filter of complex table.
 - ...
 
 More features are coming soon...
@@ -36,21 +37,39 @@ npm i @fext/vue-use
 
 ### Usage
 
-```js
-import { useLoading } from '@fext/vue-use';
+Create reactive loading state for component:
 
-export default {
-  name: 'example-component',
+```html
+<template>
+  <div :class="{ 'is-loading': loading }">Content</div>
+</template>
 
-  setup() {
-    const { loading, withLoading } = useLoading();
+<script>
+  import { useLoading } from '@fext/vue-use';
 
-    return {
-      loading,
-      withLoading
-    };
-  }
-};
+  export default {
+    setup() {
+      const { loading, withLoading } = useLoading();
+
+      return {
+        loading,
+        withLoading
+      };
+    },
+
+    created() {
+      this.withLoading(() => {
+        return this.fetchList();
+      });
+    },
+
+    methods: {
+      async fetchList() {
+        // remote api
+      }
+    }
+  };
+</script>
 ```
 
 ## Built With
